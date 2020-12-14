@@ -1,4 +1,4 @@
-# pact-consumer-example
+# pact-provider-example
 
 ## Install:
 ```
