@@ -10,10 +10,12 @@ describe("Clients Service Verification", () => {
   it("validates the expectations of Client Service", async () => {
     let opts = {
       provider: "provider-ox",
+      providerVersion: "1",
       providerBaseUrl: "http://localhost:3001",
       pactBrokerUrl: "https://test.pact.dius.com.au",
       pactBrokerUsername: "dXfltyFMgNOFZAxr8io9wJ37iUpY42M",
       pactBrokerPassword: "O5AIZWxelWbLvqMd8PkAVycBJh2Psyg1",
+      publishVerificationResult: true,
       logLevel: "DEBUG",
       verbose: true
     }
